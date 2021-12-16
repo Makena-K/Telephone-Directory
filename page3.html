@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>New Document</h1>
+    <p>new page </p>
+
+    <a href="page 2.html">back to previous page</a><br>
+    <a href="index.html">back home</a><br>
+    <a href="index.html"><img src="/images/fish.jpg" alt="a cooked fish fillet" srcset=""></a>
+
+    
+    <img src="/images/bacon.jpg" alt="bacon" >
+
+    <table>
+        <thead>
+            <th>items</th>
+            <th>Quantity</th>
+            <th>Expenditure</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Books</td>
+                <td>5</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Drawing Papers</td>
+                <td>50</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Marker</td>
+                <td>35</td>
+                <td>1875</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>90</td>
+            <td>4175</td>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <!--
+        this is a comment   
+    -->
+
+    <form action="page3.html" method="post">
+        <label for="businessname">Business Name</label>
+        <input :type="text" name="businessname" id="businessname"></input><br>
+        <label for="classification">Classification :</label><br>
+        <label for="Business">Business</label>
+        <input type="checkbox" name="classification" id="business"><br>
+        <label for="Private">Private</label>
+        <input type="checkbox" name="classification" id="private"><br>
+
+        <label for="category/industry">which Category/Industry</label>
+        <!-- <select name="category" id="category">
+            <option value="manufacturing">manufacturing</option>
+            <option value="farming">farming </option>
+            <option value="infrastructure">infrastructure</option>
+            <option value="hospitality">hospitality</option>
+        </select><br> -->
+        <br>
+
+        <label for="what they do">describe what they do</label><br>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+        <br>
+        <label for="location">location</label>
+        <select name="location" id="location">
+            <option value="nairobi">Nairobi</option>
+            <option value="mombasa">Mombasa</option>
+            <option value="kisumu">kisumu</option> 
+            <option value="nakuru">Nakuru</option>  
+        </select><br>
+        <label for="telephone">Telephone</label>
+        <input type="number" name="telephone" id="telephone">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        
+
+    </form>
+</body>
+</html>

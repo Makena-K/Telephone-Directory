@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- include bootstrap to import css styles -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <title>bootstrap</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col bg-danger col-md-2 col-sm-2">
+                <p>Nav Bar</p>
+            </div>
+
+            <div class="col bg-info">
+                <p>Details</p>
+            </div>
+
+            <div class="col bg-warning col-md-2 col-sm-2">
+                <p>Nav Bar</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <p class="text-info text-capitalize text-right bg-success">this is information </p>
+        <p class="text-success text-center text-uppercase bg-info">this is success</p>
+        <p class="text-danger text-left text-lowercase bg-warning">THIS is danger</p>
+        <p class="text-warning font-weight-bold bg-danger">this is warning</p>
+        <p class="text-primary text-justify font-italic bg-secondary">this is primary</p>
+        <p class="text-secondary lead bg-primary">this is secondary</p>
+        <p class="text-info small">this is muted</p>
+
+        <p class="alert alert-success">this a <span class="font-weight-bold">success</span> alert</p>
+        <p class="alert alert-warning">this is a <span class="font-weight-bold">warning</span> alert</p>
+        <p class="alert alert-danger">this is a <span class="font-weight-bold">danger</span> alert</p>
+        <p class="alert alert-info">this is an <span class="font-weight-bold lead">info</span> alert</p>
+        <p class="alert alert-primary">this is a primary alert</p>
+        <p class="alert alert-secondary">this is a secondary alert</p>
+        
+    </div>
+
+    <div class="alert alert-success alert-dismissible"> 
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <p class="alert alert-success">this a <span class="font-weight-bold">success</span> alert</p>
+        
+    </div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Open Modal
+    </button>
+
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal Title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Content goes here</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success btn-sm">Save changes</button>
+                    <button class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+    
+</body>
+<script src="/js/jquery-3.6.0.js"></script>
+<!-- include bootstrap js to import javascript -->
+<script src="/js/bootstrap.js"></script>
+</html>
